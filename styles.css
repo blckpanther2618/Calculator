@@ -2,6 +2,12 @@
     font-family: sqfont;
     src: url("digital-7.italic.ttf");
  }
+ #im1
+ {
+  height:60px;
+  width:60px;
+  float: left;
+ }
 .head1{
   float:right;  
   padding-right: 10px;
