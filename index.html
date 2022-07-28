@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="/images/calculator.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/mathjs@11.0.1/lib/browser/math.js"></script>
+</head>
+<body onload="main()">
+    <div class="main1">
+        <div class="d1" id="size">
+            <div class="d1s1" id="size">
+                <br>
+                <div class="displ">
+                    <h3 class="head1" id="ans"></h3>
+                    <br>
+                    <h1 class="head2" id="dpl"></h1>
+                </div>
+                <br>
+                <span class="sp1">
+                    <button class="pushable" id="one" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">1</span>
+                    </button>
+                    <button class="pushable" id="two" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">2</span>
+                    </button>
+                    <button class="pushable" id="three" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">3</span>
+                    </button>
+                    <button class="pushable" id="clear" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front" style="padding: 20px 25px; color: white; background: black;">Clear</span>
+                    </button>
+                    <br>
+                    <button class="pushable" id="four" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">4</span>
+                    </button>
+                    <button class="pushable" id="five" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">5</span>
+                    </button>
+                    <button class="pushable" id="six" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">6</span>
+                    </button>
+                    <button class="pushable" id="plus" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front" style="padding:20px 42px;">+</span>
+                    </button>
+                    <br>
+                    <button class="pushable" id="seven" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">7</span>
+                    </button>
+                    <button class="pushable" id="eight" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">8</span>
+                    </button>
+                    <button class="pushable" id="nine" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">9</span>
+                    </button>
+                    <button class="pushable" id="minus" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front" style="padding:18px 42px;font-size: 1.6rem;">-</span>
+                    </button>
+                    <br>
+                    <button class="pushable" id="zero" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">0</span>
+                    </button>
+                    <button class="pushable" id="point" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front" style="padding: 20px 32px;">.</span>
+                    </button>
+                    <button class="pushable" id="multi" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front">*</span>
+                    </button>
+                    <button class="pushable" id="equal" onclick="main(this.id)">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front" style="padding:18px 42px;font-size: 1.6rem;">=</span>
+                    </button>
+                </span> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
